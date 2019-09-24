@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://D:/自动化项目/Chrome报毒/.idea/Chrome报毒.iml" filepath="D:/自动化项目/Chrome报毒/.idea/Chrome报毒.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PycharmProjects.iml" filepath="$PROJECT_DIR$/.idea/PycharmProjects.iml" />
+      <module fileurl="file://D:/automation_framework_demo/.idea/automation_framework_demo.iml" filepath="D:/automation_framework_demo/.idea/automation_framework_demo.iml" />
+      <module fileurl="file://D:/softjiegeng/.idea/softjiegeng.iml" filepath="D:/softjiegeng/.idea/softjiegeng.iml" />
+    </modules>
+  </component>
+</project>

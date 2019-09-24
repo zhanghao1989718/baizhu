@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="47a66f52-18e0-407d-a547-d669f95985ba" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/automation_framework_demo.iml" afterPath="$PROJECT_DIR$/.idea/automation_framework_demo.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/Logs/error_logs/201909181514.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Logs/error_logs/201909182025.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Logs/logs/201909181514.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Logs/logs/201909182025.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/common/cappic.py" afterPath="$PROJECT_DIR$/common/cappic.py" />
+      <change beforePath="$PROJECT_DIR$/common/getcwd.py" afterPath="$PROJECT_DIR$/common/getcwd.py" />
+      <change beforePath="$PROJECT_DIR$/jiegeng_framework/jghome.py" afterPath="$PROJECT_DIR$/jiegeng_framework/jghome.py" />
+      <change beforePath="$PROJECT_DIR$/pages/dianshijupage.py" afterPath="$PROJECT_DIR$/pages/dianshijupage.py" />
+      <change beforePath="$PROJECT_DIR$/pages/loginpage.py" afterPath="$PROJECT_DIR$/pages/loginpage.py" />
+      <change beforePath="$PROJECT_DIR$/pages/remenyouxipage.py" afterPath="$PROJECT_DIR$/pages/remenyouxipage.py" />
+      <change beforePath="$PROJECT_DIR$/screenshots/20190918202538.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_report/2019.09.18.15.14.36HTMLtemplate.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_report/2019.09.18.20.25.31HTMLtemplate.html" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>back</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>de</replace>
+      <replace>detailspage</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="FORCE_PUSH_ALLOWED" value="false" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Common/Base_case.py" />
+        <option value="$PROJECT_DIR$/test_xusg.py" />
+        <option value="$PROJECT_DIR$/TestCase/Test_weather.py" />
+        <option value="$PROJECT_DIR$/tst.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_weather.py" />
+        <option value="$PROJECT_DIR$/Common/Base_test.py" />
+        <option value="$PROJECT_DIR$/Common/test.py" />
+        <option value="$PROJECT_DIR$/entrance.py" />
+        <option value="$PROJECT_DIR$/Common/my_email.py" />
+        <option value="$PROJECT_DIR$/Config/config.ini" />
+        <option value="$PROJECT_DIR$/TestCase/test_config.py" />
+        <option value="$PROJECT_DIR$/getcwd.py" />
+        <option value="$PROJECT_DIR$/Logs/log.py" />
+        <option value="$PROJECT_DIR$/jiegeng_unittest/jiegeng_read_unittest.py" />
+        <option value="$PROJECT_DIR$/../Chrome报毒/Chrome.py" />
+        <option value="$PROJECT_DIR$/open_bz.py" />
+        <option value="$PROJECT_DIR$/common/warning.py" />
+        <option value="$PROJECT_DIR$/open_bz.py" />
+        <option value="$PROJECT_DIR$/../softjiegeng/pages/basepage.py" />
+        <option value="$PROJECT_DIR$/../softjiegeng/jiegeng_framework/homework.py" />
+        <option value="$PROJECT_DIR$/../softjiegeng/testsuites/test_softjiegeng.py" />
+        <option value="$PROJECT_DIR$/../softjiegeng/pages/detailspage.py" />
+        <option value="$PROJECT_DIR$/../softjiegeng/pages/homepage.py" />
+        <option value="$PROJECT_DIR$/testsuites/runner.py" />
+        <option value="$PROJECT_DIR$/jiegeng_framework/jghome.py" />
+        <option value="$PROJECT_DIR$/jiegeng_framework/jghome.py" />
+        <option value="$PROJECT_DIR$/common/getcwd.py" />
+        <option value="$PROJECT_DIR$/common/cappic.py" />
+        <option value="$PROJECT_DIR$/pages/basepage.py" />
+        <option value="$PROJECT_DIR$/pages/dianshijupage.py" />
+        <option value="$PROJECT_DIR$/pages/loginpage.py" />
+        <option value="$PROJECT_DIR$/pages/remenyouxipage.py" />
+        <option value="$PROJECT_DIR$/testsuites/test_jiegeng.py" />
+        <option value="$PROJECT_DIR$/../softjiegeng/common/cappic.py" />
+        <option value="$PROJECT_DIR$/../softjiegeng/common/getcwd.py" />
+        <option value="$PROJECT_DIR$/../softjiegeng/common/warning.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="test_jiegeng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softjiegeng" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_jiegeng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softjiegeng" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_jiegeng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softjiegeng" type="462c0819:PsiDirectoryNode" />
+              <item name="jiegeng_framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_jiegeng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softjiegeng" type="462c0819:PsiDirectoryNode" />
+              <item name="Logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_jiegeng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softjiegeng" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_jiegeng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softjiegeng" type="462c0819:PsiDirectoryNode" />
+              <item name="testsuites" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Chrome报毒" type="cbb8eebc:String" user="Chrome报毒" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Chrome报毒" type="cbb8eebc:String" user="Chrome报毒" />
+              <item name="D:\自动化项目\Chrome报毒" type="cbb8eebc:String" user="D:\自动化项目\Chrome报毒" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="test_xu" type="cbb8eebc:String" user="test_xu" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="test_xu" type="cbb8eebc:String" user="test_xu" />
+              <item name="automation_framework_demo" type="cbb8eebc:String" user="automation_framework_demo" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="test_xu" type="cbb8eebc:String" user="test_xu" />
+              <item name="automation_framework_demo" type="cbb8eebc:String" user="automation_framework_demo" />
+              <item name="common" type="cbb8eebc:String" user="common" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="test_xu" type="cbb8eebc:String" user="test_xu" />
+              <item name="automation_framework_demo" type="cbb8eebc:String" user="automation_framework_demo" />
+              <item name="pages" type="cbb8eebc:String" user="pages" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="test_xu" type="cbb8eebc:String" user="test_xu" />
+              <item name="automation_framework_demo" type="cbb8eebc:String" user="automation_framework_demo" />
+              <item name="testsuites" type="cbb8eebc:String" user="testsuites" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.runner">
+    <configuration name="detailspage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../softjiegeng/pages" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="softjiegeng" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../softjiegeng/pages/detailspage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="homepage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../softjiegeng/pages" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="softjiegeng" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../softjiegeng/pages/homepage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="runner (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../softjiegeng/testsuites" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="softjiegeng" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../softjiegeng/testsuites/runner.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="runner" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testsuites" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="test_jiegeng" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testsuites/runner.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Unittests in test_softjiegeng.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../softjiegeng/testsuites" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="softjiegeng" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/../softjiegeng/testsuites/test_softjiegeng.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.runner (2)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.detailspage" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_softjiegeng.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python.homepage" />
+      <item index="4" class="java.lang.String" itemvalue="Python.runner" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.runner" />
+        <item index="1" class="java.lang.String" itemvalue="Python.runner (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.homepage" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_softjiegeng.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python.detailspage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47a66f52-18e0-407d-a547-d669f95985ba" name="Default" comment="" />
+      <created>1531821422853</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1531821422853</updated>
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1568896556142</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568896556142</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_Base_test_webrequests - 2018.07.18 at 17h 52m 11s.xml">
+      <configuration name="Unittests for Base_test.webrequests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_weather_weather_test_weather - 2018.07.17 at 21h 00m 44s.xml">
+      <configuration name="Unittests for test_weather.weather.test_weather" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_weather_weather_test_weather - 2018.07.17 at 21h 01m 59s.xml">
+      <configuration name="Unittests for test_weather.weather.test_weather" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_weather_weather_test_weather - 2018.07.17 at 21h 05m 16s.xml">
+      <configuration name="Unittests for test_weather.weather.test_weather" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_weather_weather_test_weather - 2018.07.17 at 21h 06m 58s.xml">
+      <configuration name="Unittests for test_weather.weather.test_weather" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_weather_weather_test_weather - 2018.07.17 at 21h 07m 11s.xml">
+      <configuration name="Unittests for test_weather.weather.test_weather" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_weather_weather_test_weather - 2018.07.17 at 21h 16m 00s.xml">
+      <configuration name="Unittests for test_weather.weather.test_weather" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_weather_weather_test_weather - 2018.07.18 at 10h 50m 04s.xml">
+      <configuration name="Unittests for test_weather.weather.test_weather" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_softjiegeng_py - 2019.09.20 at 16h 44m 08s.xml">
+      <configuration name="Unittests in test_softjiegeng.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_weather_py - 2018.07.17 at 21h 01m 02s.xml">
+      <configuration name="Unittests in test_weather.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12760417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2519337" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4904762" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Config/config.ini" />
+    <entry file="file://$PROJECT_DIR$/Common/Base_test.py" />
+    <entry file="file://$PROJECT_DIR$/TestCase/test_weather.py" />
+    <entry file="file://$PROJECT_DIR$/Config/config.ini" />
+    <entry file="file://$PROJECT_DIR$/entrance.py" />
+    <entry file="file://$PROJECT_DIR$/config.ini" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/unittest/case.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/requests-2.18.4-py3.6.egg/requests/sessions.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/requests-2.18.4-py3.6.egg/requests/api.py" />
+    <entry file="file://$PROJECT_DIR$/tst.py" />
+    <entry file="file://$PROJECT_DIR$/test_xusg.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/smtplib.py" />
+    <entry file="file://$PROJECT_DIR$/Config/config.ini" />
+    <entry file="file://$PROJECT_DIR$/Common/Base_test.py" />
+    <entry file="file://$PROJECT_DIR$/Common/test.py" />
+    <entry file="file://$PROJECT_DIR$/entrance.py" />
+    <entry file="file://$PROJECT_DIR$/Common/my_email.py" />
+    <entry file="file://$PROJECT_DIR$/TestCase/test_weather.py" />
+    <entry file="file://$PROJECT_DIR$/TestCase/test_config.py" />
+    <entry file="file://$PROJECT_DIR$/getcwd.py" />
+    <entry file="file://$PROJECT_DIR$/Logs/log.py" />
+    <entry file="file://$PROJECT_DIR$/jiegeng_unittest/jiegeng_read_unittest.py" />
+    <entry file="file://$PROJECT_DIR$/../Chrome报毒/Chrome.py" />
+    <entry file="file://$PROJECT_DIR$/screenshots/20190918145132.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/20190903173253.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/20190903172226.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/20190903171555.png" />
+    <entry file="file://$PROJECT_DIR$/open_bz.py" />
+    <entry file="file://$PROJECT_DIR$/common/warning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="14" />
+          <folding>
+            <element signature="e#15#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/getcwd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/cappic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding>
+            <element signature="e#15#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiegeng_framework/jghome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding>
+            <element signature="e#15#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/basepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/dianshijupage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/loginpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/remenyouxipage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testsuites/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testsuites/test_jiegeng.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="22" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../softjiegeng/common/cappic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding>
+            <element signature="e#23#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../softjiegeng/pages/detailspage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../softjiegeng/pages/homepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="70" column="23" lean-forward="false" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+          <folding>
+            <element signature="e#19#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../softjiegeng/testsuites/test_softjiegeng.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../softjiegeng/testsuites/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../softjiegeng/common/getcwd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../softjiegeng/pages/basepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2112">
+          <caret line="64" column="56" lean-forward="false" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="56" />
+          <folding>
+            <element signature="e#15#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../softjiegeng/common/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../softjiegeng/common/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../softjiegeng/common/warning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../softjiegeng/jiegeng_framework/homework.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

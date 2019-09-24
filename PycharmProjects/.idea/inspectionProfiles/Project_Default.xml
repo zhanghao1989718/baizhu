@@ -1,0 +1,25 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N803" />
+          <option value="N802" />
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="Selenium.test.test_log.TestMyLog" />
+          <option value="Selenium.Selenium_jiegeng.JieGeng_dianshiju.driver" />
+          <option value="Selenium.Selenium_jiegeng.JieGeng_dianshiju.*" />
+          <option value="Selenium.Selenium_jiegeng.JieGeng_remenyouxi.window_remenyouxi" />
+          <option value="datatime" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
