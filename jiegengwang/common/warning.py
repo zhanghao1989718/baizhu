@@ -3,13 +3,13 @@ import requests
 import json
 
 # 百助测试部门token
-# https://oapi.dingtalk.com/robot/send?access_token=439d31f639246aae4f7d5847f56eff0bdd8e2c3544f17a04e2e3b17d8e0c82c5
+# https://oapi.dingtalk.com/robot/send?access_token=273e79e103fd6d5705fcb6a6282df47640efdd047457dfc56a00ba620cd2c1d9
 # 测试用
 # https://oapi.dingtalk.com/robot/send?access_token=e0d235149c06abd1874fe3c51d91713df0d5cd8569516a3f51d9be65b87ee678
 
 def message(a):
     url = 'https://oapi.dingtalk.com/robot/send?access_token=' \
-          'e0d235149c06abd1874fe3c51d91713df0d5cd8569516a3f51d9be65b87ee678'
+          '273e79e103fd6d5705fcb6a6282df47640efdd047457dfc56a00ba620cd2c1d9'
     pagrem = {
         "msgtype": "text",
         "text": {

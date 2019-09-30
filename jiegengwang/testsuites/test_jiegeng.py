@@ -11,12 +11,12 @@ class JieGen_Test(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         jghome.start_browser()
-        message("桔梗网自动化测试开始")
+        message("https://www.jiegeng.com自动化测试开始")
 
     @classmethod
     def tearDownClass(cls):
         jghome.driver.quit()
-        message("桔梗网自动化测试已结束")
+        message("https://www.jiegeng.com自动化测试已结束")
 
     def test_01(self):
         jghome.top_moudle()
