@@ -12,26 +12,26 @@ mylogger = Logger(logger='系统').getlog()
 get_desk_p = os.path.join(os.path.expanduser('~'),"Desktop")
 # 创建参数化对象
 profile = webdriver.FirefoxProfile()
-# 桌面创建iDownload文件夹
+# 桌面创建softjiegeng_download文件夹
 try:
-    os.makedirs(get_desk_p + '\\iDownload')
-    mylogger.info("创建iDownload文件夹成功")
+    os.makedirs(get_desk_p + '\\softjiegeng_download')
+    mylogger.info("创建softjiegeng_download文件夹成功")
 except:
-    mylogger.info("桌面已有iDownload文件夹")
+    mylogger.info("桌面已有softjiegeng_download文件夹")
     try:
         # 删除空文件夹
-        os.remove(get_desk_p + '\\iDownload')
-        mylogger.info("删除空iDownload文件夹成功")
-        os.makedirs(get_desk_p + '\\iDownload')
-        mylogger.info("创建iDownload文件夹成功")
+        os.remove(get_desk_p + '\\softjiegeng_download')
+        mylogger.info("删除空softjiegeng_download文件夹成功")
+        os.makedirs(get_desk_p + '\\softjiegeng_download')
+        mylogger.info("创建softjiegeng_download文件夹成功")
     except:
         # 删除非空文件夹
-        shutil.rmtree(get_desk_p + '\\iDownload')
-        mylogger.info("删除非空iDownload文件夹成功")
-        os.makedirs(get_desk_p + '\\iDownload')
-        mylogger.info("创建iDownload文件夹成功")
-# 下载文件放入桌面iDownload文件夹
-profile.set_preference('browser.download.dir', get_desk_p + '\\iDownload')
+        shutil.rmtree(get_desk_p + '\\softjiegeng_download')
+        mylogger.info("删除非空softjiegeng_download文件夹成功")
+        os.makedirs(get_desk_p + '\\softjiegeng_download')
+        mylogger.info("创建softjiegeng_download文件夹成功")
+# 下载文件放入桌面softjiegeng_download文件夹
+profile.set_preference('browser.download.dir', get_desk_p + '\\softjiegeng_download')
 # 将browser.download.folderList设置成2，表示将文件下载到指定路径
 # 设置成0表示下载到桌面；设置为1表示下载到默认路径
 profile.set_preference('browser.download.folderList', 2)
