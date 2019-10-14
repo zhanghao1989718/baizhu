@@ -39,7 +39,7 @@ class DetailsPage(BasePage):
 
 
 if __name__ == "__main__":
-    dpage = DetailsPage(webdriver.Chrome())
+    dpage = DetailsPage(webdriver.Firefox())
     dpage.start_browser()
     dpage.click_by_xpath('//*[@id="focus1"]/ul/li/a/img')
     dpage.sleep(2)

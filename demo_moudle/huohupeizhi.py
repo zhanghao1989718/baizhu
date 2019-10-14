@@ -1,14 +1,18 @@
 # encoding=utf-8
 from selenium import webdriver
 import unittest, time
+import os
 
+# 定义桌面路径的方法
+def get_desk_p():
+    return os.path.join(os.path.expanduser('~'),"Desktop")
 
 class TestDemo(unittest.TestCase):
     def setUp(self):
         # self.driver= webdriver.Firefox()
         # 创建一个FirefoxProfile的实例，用于存放自定义配置
         profile = webdriver.FirefoxProfile()
-        profile.set_preference('browser.download.dir', 'C:\\Users\\80649.LAPTOP-T3EKEB7M\\Desktop\\iDownload')
+        profile.set_preference('browser.download.dir', get_desk_p() + '\\iDownload')
         # 将browser.download.folderList设置成2，表示将文件下载到指定路径
         # 设置成0表示下载到桌面；设置为1表示下载到默认路径
         profile.set_preference('browser.download.folderList', 2)
@@ -50,7 +54,7 @@ class TestDemo(unittest.TestCase):
         # 选择下载ZIP类型文件，使用application/zip指代此类型文件
         self.driver.find_element_by_xpath("/html/body/div[5]/div/div[1]/div/div[2]/span[1]/i").click()
         # 等待加载下载文件
-        time.sleep(100)
+        time.sleep(3)
 
     def tearDown(self):
         self.driver.quit()

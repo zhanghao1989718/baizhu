@@ -25,7 +25,7 @@ suite = unittest.TestLoader().discover("testsuites")
 
 if __name__ == '__main__':
     # 初始化一个HTMLTestRunner实例对象，用来生成报告
-    runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title="桔梗网项目自动化测试报告", description="用例测试情况", verbosity=2)
+    runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title="桔梗软件站自动化测试报告", description="用例测试情况", verbosity=2)
     # 开始执行测试套件
     runner.run(suite)
     fp.close()

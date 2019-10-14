@@ -270,7 +270,7 @@ class HomePage(DetailsPage, BasePage):
         self.detailspage()
 
 if __name__ == "__main__":
-    hpage = HomePage(webdriver.Chrome())
+    hpage = HomePage(webdriver.Firefox())
     hpage.start_browser()
     # hpage.homepage_tuijian()
     # hpage.homepage_xiazai_1()
