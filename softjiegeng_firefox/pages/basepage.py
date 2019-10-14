@@ -1,7 +1,6 @@
 # coding=utf-8
 import time
 import os
-from selenium import webdriver
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 from softjiegeng_firefox.common.cappic import Cappic

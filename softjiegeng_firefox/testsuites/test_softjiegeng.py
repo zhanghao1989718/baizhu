@@ -1,13 +1,37 @@
 # _*_ coding:utf-8 _*_
 import unittest
 import os
+import shutil
 from selenium import webdriver
 from softjiegeng_firefox.pages.homepage import HomePage
 from softjiegeng_firefox.common.warning import message
+from softjiegeng_firefox.common.log import Logger
 
 
+mylogger = Logger(logger='系统').getlog()
+get_desk_p = os.path.join(os.path.expanduser('~'),"Desktop")
+# 创建参数化对象
 profile = webdriver.FirefoxProfile()
-profile.set_preference('browser.download.dir', os.path.join(os.path.expanduser('~'), "Desktop") + '\\iDownload')
+# 桌面创建iDownload文件夹
+try:
+    os.makedirs(get_desk_p + '\\iDownload')
+    mylogger.info("创建iDownload文件夹成功")
+except:
+    mylogger.info("桌面已有iDownload文件夹")
+    try:
+        # 删除空文件夹
+        os.remove(get_desk_p + '\\iDownload')
+        mylogger.info("删除空iDownload文件夹成功")
+        os.makedirs(get_desk_p + '\\iDownload')
+        mylogger.info("创建iDownload文件夹成功")
+    except:
+        # 删除非空文件夹
+        shutil.rmtree(get_desk_p + '\\iDownload')
+        mylogger.info("删除非空iDownload文件夹成功")
+        os.makedirs(get_desk_p + '\\iDownload')
+        mylogger.info("创建iDownload文件夹成功")
+# 下载文件放入桌面iDownload文件夹
+profile.set_preference('browser.download.dir', get_desk_p + '\\iDownload')
 # 将browser.download.folderList设置成2，表示将文件下载到指定路径
 # 设置成0表示下载到桌面；设置为1表示下载到默认路径
 profile.set_preference('browser.download.folderList', 2)
