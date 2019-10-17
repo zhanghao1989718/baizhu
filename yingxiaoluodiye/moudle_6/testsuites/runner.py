@@ -1,5 +1,5 @@
 # coding=utf-8
-from yingxiaoluodiye.moudle_5.common import HTMLTestRunner
+from yingxiaoluodiye.moudle_6.common import HTMLTestRunner
 import os
 import sys
 

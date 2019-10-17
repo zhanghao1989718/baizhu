@@ -1,8 +1,8 @@
 # _*_ coding:utf-8 _*_
 import unittest
 from selenium import webdriver
-from yingxiaoluodiye.moudle_5.pages.homepage import HomePage
-from yingxiaoluodiye.moudle_5.common.warning import message
+from yingxiaoluodiye.moudle_6.pages.homepage import HomePage
+from yingxiaoluodiye.moudle_6.common.warning import message
 
 hpage = HomePage(webdriver.Chrome())
 class YingXiao_Test(unittest.TestCase):
