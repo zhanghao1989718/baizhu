@@ -1,49 +1,57 @@
 # coding=utf-8
-import sys
+import logging
 from selenium import webdriver
 import os
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 import time
-import datetime
 from PycharmProjects.Dingding_warning.warning import message
 
-
-# 定义日志集合
 class Logger(object):
-    def __init__(self, fileN="Default.log"):
-        self.terminal = sys.stdout
-        self.log = open(fileN, "a")
+    def __init__(self, logger):
+        """
+        指定保存日志的文件路径，日志级别，以及调用文件
+            将日志存入到指定的文件中
+        :param logger:
+        """
+        # 创建一个logger
+        self.logger = logging.getLogger(logger)
+        self.logger.setLevel(logging.DEBUG)
+        # 创建一个handler，用于写入日志文件
+        rq = time.strftime('%Y%m%d%H%M', time.localtime(time.time()))
+        log_path = os.path.dirname(os.path.abspath('.')) + '\\Logs\\logs\\'
+        log_name = log_path + rq + '.log'
+        error_log_path = os.path.dirname(os.path.abspath('.')) + '\\Logs\\error_logs\\'
+        error_log_name = error_log_path + rq + '.log'
+        fh = logging.FileHandler(log_name, encoding='utf-8')
+        fh.setLevel(logging.INFO)
+        eh = logging.FileHandler(error_log_name, encoding='utf-8')
+        eh.setLevel(logging.ERROR)
+        # 再创建一个handler，用于输出到控制台
+        ch = logging.StreamHandler()
+        ch.setLevel(logging.INFO)
+        # 定义handler的输出格式
+        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        error_formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(module)s  - %(lineno)s - %(message)s')
+        fh.setFormatter(formatter)
+        ch.setFormatter(formatter)
+        eh.setFormatter(error_formatter)
+        # 给logger添加handler
+        self.logger.addHandler(fh)
+        self.logger.addHandler(ch)
+        self.logger.addHandler(eh)
+    def getlog(self):
+        return self.logger
 
-    def write(self, message):
-        self.terminal.write(message)
-        self.log.write(message)
-
-    def flush(self):
-        pass
-
-
-# 输出日志到桌面文档
-get_desk_p = os.path.join(os.path.expanduser('~'),"Desktop")
-sys.stdout = Logger(get_desk_p + "\\bz_selenium_log.txt")
-
+mylogger = Logger(logger='百助').getlog()
 
 # 定义标题判断方法
 def title_judge(a, b):
     title = driver.title
     if title == a:
-        print("%s \n页面打开成功 " % b)
+        mylogger.info("%s \n页面打开成功 " % b)
     else:
-        print("%s \n页面打开失败 " % b)
-    # 获取当前系统时间，并去除毫秒
-    i = datetime.datetime.now().replace(microsecond=0)
-    print("%s" % i)
-
-
-# 定义获取当前系统时间
-def datatime():
-    i = datetime.datetime.now().replace(microsecond=0)
-    print("%s" % i)
+        mylogger.info("%s \n页面打开失败 " % b)
 
 
 # 定义通过xpath鼠标点击接口，并后退
@@ -52,11 +60,9 @@ def testName(c, b, d):
     time.sleep(3)
     title = driver.title
     if title == b:
-        print("%s \n页面打开成功 " % d)
+        mylogger.info("%s \n页面打开成功 " % d)
     else:
-        print("%s \n页面打开失败 " % d)
-    i = datetime.datetime.now().replace(microsecond=0)
-    print("%s" % i)
+        mylogger.info("%s \n页面打开失败 " % d)
     driver.back()
     time.sleep(3)
 
@@ -73,11 +79,9 @@ def switchHandle(a, b):
             driver.switch_to.window(current_window)
             title = driver.title
             if title == b:
-                print(b, end="\n" + "页面打开成功 ")
+                mylogger.info(b + "页面打开成功 ")
             else:
-                print(b, end="\n" + "页面打开失败 ")
-            i = datetime.datetime.now().replace(microsecond=0)
-            print("%s" % i)
+                mylogger.info(b + "页面打开失败 ")
             driver.close()
             driver.switch_to.window(window_1)
     time.sleep(3)
@@ -126,9 +130,7 @@ def switchHandlec(c, a):
                 title_name = a
                 for b in title_name:
                     if title == b:
-                        print(b, end="\n" + "页面打开成功 ")
-                        i = datetime.datetime.now().replace(microsecond=0)
-                        print("%s" % i, end="\n")
+                        mylogger.info(b + "页面打开成功 ")
                         break
                 driver.close()
                 driver.switch_to.window(window_1)
@@ -167,9 +169,8 @@ def switchHandlee(e):
 
 
 for i in range(1, 2):
-    print('百助官网的第%d次测试开始' % i, end="\n")
-    message("自动化测试开始")
-    datatime()
+    mylogger.info('百助官网的第%d次测试开始' % i)
+    # message("自动化测试开始")
     driver = webdriver.Chrome()
     driver.get("http://www.bz.cn")
     time.sleep(2)
@@ -228,10 +229,8 @@ for i in range(1, 2):
     article = driver.find_element_by_xpath('//*[@id="features"]/ul/li[3]/a/div[1]')
     ActionChains(driver).move_to_element(article).perform()
     time.sleep(2)
-    print('百助官网的第%d次测试结束' % i, end="\n")
-    datatime()
-    print(end='\n')
-    message("自动化测试结束")
+    mylogger.info('百助官网的第%d次测试结束' % i)
+    # message("自动化测试结束")
     driver.quit()
 
 
