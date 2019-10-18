@@ -33,7 +33,7 @@ class BasePage(object):
 
     # quit browser and end testing
     def quit_browser(self):
-        mylogger.info("营销5#模板自动化测试结束")
+        mylogger.info("营销6#模板自动化测试结束")
         mylogger.info("当前浏览器版本:" + self.driver.capabilities['version'])
         self.driver.quit()
 

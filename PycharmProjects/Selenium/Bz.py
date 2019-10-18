@@ -1,17 +1,15 @@
 # coding=utf-8
 import sys
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
+import os
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 import time
 import datetime
-
-
-# 定义日志集合
 from PycharmProjects.Dingding_warning.warning import message
 
 
+# 定义日志集合
 class Logger(object):
     def __init__(self, fileN="Default.log"):
         self.terminal = sys.stdout
@@ -26,7 +24,8 @@ class Logger(object):
 
 
 # 输出日志到桌面文档
-sys.stdout = Logger("F:\\百助工作材料\\bz_selenium_log.txt")
+get_desk_p = os.path.join(os.path.expanduser('~'),"Desktop")
+sys.stdout = Logger(get_desk_p + "\\bz_selenium_log.txt")
 
 
 # 定义标题判断方法
