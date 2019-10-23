@@ -4,7 +4,7 @@ from selenium import webdriver
 from yingxiaoluodiye.moudle_6.pages.homepage import HomePage
 from yingxiaoluodiye.moudle_6.common.warning import message
 
-hpage = HomePage(webdriver.Chrome())
+hpage = HomePage(driver = webdriver.Chrome())
 class YingXiao_Test(unittest.TestCase):
 
     @classmethod
