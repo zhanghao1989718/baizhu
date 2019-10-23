@@ -73,6 +73,9 @@ class BasePage(object):
         Cappic(self.driver)
         self.sleep(1)
 
+    def quit_browser(self):
+        self.driver.quit()
+
     # 模拟鼠标左键点击
     def click_by_xpath(self, xpath):
         try:
