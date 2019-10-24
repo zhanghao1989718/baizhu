@@ -52,7 +52,7 @@ class BasePage(object):
         return json.loads(get_text)["data"]["keyword"]["destinationUrl"]
 
     def start_browser(self):
-        mylogger.info("营销6#模板自动化测试开始")
+        mylogger.info("营销8#模板自动化测试开始")
         url = self.get_url()
         # 隐形等待10秒时间
         self.wait(10)
