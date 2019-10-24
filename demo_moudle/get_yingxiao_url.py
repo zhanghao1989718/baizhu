@@ -13,7 +13,7 @@ def get_keywordId():
     request_param={
         "urrPage":"1",
         "pageSize":"20",
-        "showId":"5"
+        "showId":"8"
     }
     # response=requests.post(url,data=json.dumps(request_param), headers=headers)
     response=requests.post(url, data = request_param, headers = headers)
@@ -22,8 +22,8 @@ def get_keywordId():
     # json.loads把json格式转换为python识别的格式
     # print(json.loads(get_text)["content"]["pageContent"][1]["keywordId"])
     # print(get_text)
-    # print(json.loads(get_text)["content"]["pageContent"][1]["showId"])
-    # print("=" * 50)
+    print(json.loads(get_text)["content"]["pageContent"][1]["showId"])
+    print("=" * 50)
     return json.loads(get_text)["content"]["pageContent"][1]["keywordId"]
 
 
@@ -43,7 +43,7 @@ def get_url():
     response = requests.post(url, data=request_param, headers=headers)
 
     get_text = response.text
-    # print(json.loads(get_text)["data"]["keyword"]["destinationUrl"])
+    print(json.loads(get_text)["data"]["keyword"]["destinationUrl"])
     return json.loads(get_text)["data"]["keyword"]["destinationUrl"]
 
 if __name__ == "__main__":
