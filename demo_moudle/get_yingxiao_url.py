@@ -13,7 +13,7 @@ def get_keywordId():
     request_param={
         "urrPage":"1",
         "pageSize":"20",
-        "showId":"8"
+        "showId":"6"
     }
     # response=requests.post(url,data=json.dumps(request_param), headers=headers)
     response=requests.post(url, data = request_param, headers = headers)
