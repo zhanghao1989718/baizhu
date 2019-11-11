@@ -170,7 +170,7 @@ def switchHandlee(e):
 
 for i in range(1, 2):
     mylogger.info('百助官网的第%d次测试开始' % i)
-    # message("自动化测试开始")
+    message("自动化测试开始")
     driver = webdriver.Chrome()
     driver.get("http://www.bz.cn")
     time.sleep(2)
@@ -230,7 +230,7 @@ for i in range(1, 2):
     ActionChains(driver).move_to_element(article).perform()
     time.sleep(2)
     mylogger.info('百助官网的第%d次测试结束' % i)
-    # message("自动化测试结束")
+    message("自动化测试结束")
     driver.quit()
 
 

@@ -42,7 +42,7 @@ import pyautogui
 #     pyautogui.moveRel(0, -100, duration=0.25)
 
 
-# 获得鼠标位置
+# # 获得鼠标位置
 # x, y = pyautogui.position()
 # print(x, y)
 
@@ -68,10 +68,10 @@ import pyautogui
 # pyautogui.click(100, 100)
 
 # 滚轮,使用函数scroll()，它只接受一个整数。如果值为正往上滚，值为负往下滚。
-# pyautogui.scroll(200)
+# pyautogui.scroll(1000)
 
-# # 截屏判断所在位置的元素，或者截屏判断
-# # 获得某个坐标的像素
+# 截屏判断所在位置的元素，或者截屏判断
+# 获得某个坐标的像素
 # im = pyautogui.screenshot()
 # print(im)
 # b = im.getpixel((517, 43))
@@ -79,7 +79,7 @@ import pyautogui
 # # 判断屏幕坐标的像素是不是等于某个值
 # a = pyautogui.pixelMatchesColor(517, 43, (165, 186, 186))
 # print(a)
-# # 获取button.png的像素
+# 获取button.png的像素
 # c = pyautogui.locateOnScreen('button.png')
 # print(c)
 # # 通过像素还原中心点的坐标
@@ -89,7 +89,7 @@ import pyautogui
 
 # d = pyautogui.locateOnScreen('txt.png')
 # print(d)
-# x, y = pyautogui.center((256, 1032, 45, 45))
+# x, y = pyautogui.center((197, 1035, 42, 41))
 # pyautogui.click(x, y)
 # pyautogui.click(200, 200)
 # pyautogui.typewrite('Hello world!')
@@ -99,12 +99,12 @@ import pyautogui
 
 # d = pyautogui.locateOnScreen('txt.png')
 # print(d)
-# x, y = pyautogui.center((256, 1032, 45, 45))
+# x, y = pyautogui.center((197, 1035, 42, 41))
 # pyautogui.click(x, y)
 # pyautogui.click(200, 200)
 # # 模拟alt＋F4：
-# pyautogui.keyDown('altleft')
-# pyautogui.press('f4')
-# pyautogui.keyUp('altleft')
-# # 也可以直接使用热键函数：hotkey()
+# # pyautogui.keyDown('altleft')
+# # pyautogui.press('f4')
+# # pyautogui.keyUp('altleft')
+# # # 也可以直接使用热键函数：hotkey()
 # pyautogui.hotkey('altleft', 'f4')
