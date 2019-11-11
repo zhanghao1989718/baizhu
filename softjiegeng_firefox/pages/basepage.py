@@ -162,6 +162,7 @@ class BasePage(object):
             text = k.text
             mylogger.info("%s点击成功" % text)
             k.click()
+            self.tuijiankuang_close()
             self.sleep(2)
 
     def clicks_by_xpath_back(self, xpath):
