@@ -1,0 +1,98 @@
+2019-10-24 21:28:39,684 - basepage - INFO - 营销5#模板自动化测试开始
+2019-10-24 21:28:41,795 - basepage - INFO - 隐性等待10秒
+2019-10-24 21:28:43,172 - basepage - INFO - 跳转至http://www.daque.cn/soft/34106.html?tab=1657806
+2019-10-24 21:28:44,365 - basepage - INFO - 窗口已经最大化
+2019-10-24 21:28:46,120 - basepage - INFO - 点击成功
+2019-10-24 21:28:47,491 - basepage - INFO - 点击成功
+2019-10-24 21:28:48,672 - basepage - INFO - 下载点击成功
+2019-10-24 21:28:50,005 - basepage - INFO - 点击成功
+2019-10-24 21:28:51,091 - basepage - INFO - 下载点击成功
+2019-10-24 21:28:52,180 - basepage - INFO - 点击成功
+2019-10-24 21:28:53,283 - basepage - INFO - 下载点击成功
+2019-10-24 21:28:54,379 - basepage - INFO - 点击成功
+2019-10-24 21:28:55,465 - basepage - INFO - 下载点击成功
+2019-10-24 21:28:56,524 - basepage - INFO - 点击成功
+2019-10-24 21:28:57,617 - basepage - INFO - 点击成功
+2019-10-24 21:28:58,699 - basepage - INFO - 下载点击成功
+2019-10-24 21:28:59,796 - basepage - INFO - 点击成功
+2019-10-24 21:29:00,892 - basepage - INFO - 下载点击成功
+2019-10-24 21:29:01,972 - basepage - INFO - 点击成功
+2019-10-24 21:29:03,067 - basepage - INFO - 下载点击成功
+2019-10-24 21:29:04,148 - basepage - INFO - 点击成功
+2019-10-24 21:29:05,285 - basepage - INFO - 下载点击成功
+2019-10-24 21:29:06,352 - basepage - INFO - 点击成功
+2019-10-24 21:29:07,473 - basepage - INFO - 点击成功
+2019-10-24 21:29:08,564 - basepage - INFO - 下载点击成功
+2019-10-24 21:29:09,656 - basepage - INFO - 点击成功
+2019-10-24 21:29:10,749 - basepage - INFO - 下载点击成功
+2019-10-24 21:29:11,832 - basepage - INFO - 点击成功
+2019-10-24 21:29:12,917 - basepage - INFO - 下载点击成功
+2019-10-24 21:29:14,002 - basepage - INFO - 点击成功
+2019-10-24 21:29:15,087 - basepage - INFO - 下载点击成功
+2019-10-24 21:29:16,173 - basepage - INFO - 点击成功
+2019-10-24 21:29:17,257 - basepage - INFO - 下载点击成功
+2019-10-24 21:29:18,368 - basepage - INFO - 点击成功
+2019-10-24 21:29:19,485 - basepage - INFO - 下载点击成功
+2019-10-24 21:29:20,569 - basepage - INFO - 点击成功
+2019-10-24 21:29:21,668 - basepage - INFO - 下载点击成功
+2019-10-24 21:29:22,751 - basepage - INFO - 点击成功
+2019-10-24 21:29:23,841 - basepage - INFO - 下载点击成功
+2019-10-24 21:29:24,897 - basepage - INFO - 点击成功
+2019-10-24 21:29:26,007 - basepage - INFO - 逗游游戏盒点击成功
+2019-10-24 21:29:26,208 - basepage - INFO - 点击成功
+2019-10-24 21:29:27,312 - basepage - INFO - 逗游游戏盒点击成功
+2019-10-24 21:29:27,522 - basepage - INFO - 点击成功
+2019-10-24 21:29:28,615 - basepage - INFO - 逗游游戏盒2018-10-11点击成功
+2019-10-24 21:29:28,815 - basepage - INFO - 点击成功
+2019-10-24 21:29:29,918 - basepage - INFO - 逗游游戏盒20192019-05-28点击成功
+2019-10-24 21:29:30,117 - basepage - INFO - 点击成功
+2019-10-24 21:29:41,180 - basepage - INFO - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="history"]/ul/li[3]"}
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64)
+
+2019-10-24 21:29:51,239 - basepage - INFO - Message: element not interactable
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64)
+
+2019-10-24 21:30:02,288 - basepage - INFO - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="history"]/ul/li[4]"}
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64)
+
+2019-10-24 21:30:12,355 - basepage - INFO - Message: element not interactable
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64)
+
+2019-10-24 21:30:23,366 - basepage - INFO - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="history"]/ul/li[5]"}
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64)
+
+2019-10-24 21:30:33,427 - basepage - INFO - Message: element not interactable
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64)
+
+2019-10-24 21:30:44,485 - basepage - INFO - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="history"]/ul/li[6]"}
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64)
+
+2019-10-24 21:30:54,545 - basepage - INFO - Message: element not interactable
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64)
+
+2019-10-24 21:30:55,645 - basepage - INFO - 类型：点击成功
+2019-10-24 21:30:55,892 - basepage - INFO - 点击成功
+2019-10-24 21:30:56,986 - basepage - INFO - Windows XP点击成功
+2019-10-24 21:30:57,368 - basepage - INFO - 点击成功
+2019-10-24 21:30:58,463 - basepage - INFO - Windows10点击成功
+2019-10-24 21:30:58,660 - basepage - INFO - 点击成功
+2019-10-24 21:30:59,766 - basepage - INFO - Windows7点击成功
+2019-10-24 21:30:59,979 - basepage - INFO - 点击成功
+2019-10-24 21:31:01,065 - basepage - INFO - Windows8点击成功
+2019-10-24 21:31:01,259 - basepage - INFO - 点击成功
+2019-10-24 21:31:02,392 - basepage - INFO - 点击成功
+2019-10-24 21:31:02,599 - basepage - INFO - 点击成功
+2019-10-24 21:31:03,697 - basepage - INFO - 点击成功
+2019-10-24 21:31:03,900 - basepage - INFO - 点击成功
+2019-10-24 21:31:05,030 - basepage - INFO - 点击成功
+2019-10-24 21:31:05,226 - basepage - INFO - 点击成功
+2019-10-24 21:31:06,327 - basepage - INFO - 点击成功
+2019-10-24 21:31:06,901 - basepage - INFO - 点击成功
