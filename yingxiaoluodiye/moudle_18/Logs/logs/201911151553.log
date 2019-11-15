@@ -1,0 +1,94 @@
+2019-11-15 15:53:26,080 - basepage - INFO - 营销18#模板自动化测试开始
+2019-11-15 15:53:27,680 - basepage - INFO - 隐性等待10秒
+2019-11-15 15:53:28,519 - basepage - INFO - 跳转至http://www.daque.cn/soft/6313.html?tab=1235688
+2019-11-15 15:53:29,655 - basepage - INFO - 窗口已经最大化
+2019-11-15 15:53:33,227 - basepage - INFO - QQ游戏
+更新时间：2019-11-15 应用平台：全平台
+立即下载点击成功
+2019-11-15 15:53:33,616 - basepage - INFO - 点击成功
+2019-11-15 15:53:34,706 - basepage - INFO - 下载点击成功
+2019-11-15 15:53:35,788 - basepage - INFO - 点击成功
+2019-11-15 15:53:36,885 - basepage - INFO - 下载点击成功
+2019-11-15 15:53:37,964 - basepage - INFO - 点击成功
+2019-11-15 15:53:39,050 - basepage - INFO - 下载点击成功
+2019-11-15 15:53:40,134 - basepage - INFO - 点击成功
+2019-11-15 15:53:41,214 - basepage - INFO - 下载点击成功
+2019-11-15 15:53:42,269 - basepage - INFO - 点击成功
+2019-11-15 15:53:43,355 - basepage - INFO - 点击成功
+2019-11-15 15:53:44,434 - basepage - INFO - 下载点击成功
+2019-11-15 15:53:45,513 - basepage - INFO - 点击成功
+2019-11-15 15:53:46,591 - basepage - INFO - 下载点击成功
+2019-11-15 15:53:47,700 - basepage - INFO - 点击成功
+2019-11-15 15:53:48,800 - basepage - INFO - 下载点击成功
+2019-11-15 15:53:49,885 - basepage - INFO - 点击成功
+2019-11-15 15:53:50,968 - basepage - INFO - 下载点击成功
+2019-11-15 15:53:52,022 - basepage - INFO - 点击成功
+2019-11-15 15:53:53,104 - basepage - INFO - 点击成功
+2019-11-15 15:53:54,187 - basepage - INFO - 下载点击成功
+2019-11-15 15:53:55,269 - basepage - INFO - 点击成功
+2019-11-15 15:53:56,347 - basepage - INFO - 下载点击成功
+2019-11-15 15:53:57,422 - basepage - INFO - 点击成功
+2019-11-15 15:53:58,497 - basepage - INFO - 下载点击成功
+2019-11-15 15:53:59,580 - basepage - INFO - 点击成功
+2019-11-15 15:54:00,664 - basepage - INFO - 下载点击成功
+2019-11-15 15:54:01,744 - basepage - INFO - 点击成功
+2019-11-15 15:54:02,821 - basepage - INFO - 下载点击成功
+2019-11-15 15:54:03,898 - basepage - INFO - 点击成功
+2019-11-15 15:54:04,981 - basepage - INFO - 下载点击成功
+2019-11-15 15:54:06,063 - basepage - INFO - 点击成功
+2019-11-15 15:54:07,144 - basepage - INFO - 下载点击成功
+2019-11-15 15:54:08,220 - basepage - INFO - 点击成功
+2019-11-15 15:54:09,304 - basepage - INFO - 下载点击成功
+2019-11-15 15:54:10,357 - basepage - INFO - 点击成功
+2019-11-15 15:54:11,435 - basepage - INFO - QQ游戏点击成功
+2019-11-15 15:54:11,588 - basepage - INFO - 点击成功
+2019-11-15 15:54:12,600 - basepage - INFO - Message: invalid selector: The result of the xpath expression "/html/body/div[2]/div[2]/div[1]/div/div/div[2]/span[1]/text()" is: [object Text]. It should be an element.
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64)
+
+2019-11-15 15:54:22,645 - basepage - INFO - Message: element not interactable
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64)
+
+2019-11-15 15:54:23,726 - basepage - INFO - 2019-11-15点击成功
+2019-11-15 15:54:23,869 - basepage - INFO - 点击成功
+2019-11-15 15:54:24,953 - basepage - INFO - 应用平台：全平台点击成功
+2019-11-15 15:54:25,107 - basepage - INFO - 点击成功
+2019-11-15 15:54:26,193 - basepage - INFO - 立即下载点击成功
+2019-11-15 15:54:26,363 - basepage - INFO - 点击成功
+2019-11-15 15:54:27,443 - basepage - INFO - 点击成功
+2019-11-15 15:54:27,593 - basepage - INFO - 点击成功
+2019-11-15 15:54:28,677 - basepage - INFO - QQ游戏点击成功
+2019-11-15 15:54:28,835 - basepage - INFO - 点击成功
+2019-11-15 15:54:29,928 - basepage - INFO - 下载点击成功
+2019-11-15 15:54:30,087 - basepage - INFO - 点击成功
+2019-11-15 15:54:31,170 - basepage - INFO - 点击成功
+2019-11-15 15:54:31,333 - basepage - INFO - 点击成功
+2019-11-15 15:54:32,411 - basepage - INFO - QQ游戏2019点击成功
+2019-11-15 15:54:32,576 - basepage - INFO - 点击成功
+2019-11-15 15:54:33,657 - basepage - INFO - 下载点击成功
+2019-11-15 15:54:33,803 - basepage - INFO - 点击成功
+2019-11-15 15:54:34,886 - basepage - INFO - 点击成功
+2019-11-15 15:54:35,039 - basepage - INFO - 点击成功
+2019-11-15 15:54:36,117 - basepage - INFO - QQ游戏怀旧版点击成功
+2019-11-15 15:54:36,270 - basepage - INFO - 点击成功
+2019-11-15 15:54:37,348 - basepage - INFO - 下载点击成功
+2019-11-15 15:54:37,505 - basepage - INFO - 点击成功
+2019-11-15 15:54:38,587 - basepage - INFO - 点击成功
+2019-11-15 15:54:38,720 - basepage - INFO - 点击成功
+2019-11-15 15:54:39,796 - basepage - INFO - QQ游戏（推荐）点击成功
+2019-11-15 15:54:39,926 - basepage - INFO - 点击成功
+2019-11-15 15:54:41,002 - basepage - INFO - 下载点击成功
+2019-11-15 15:54:41,148 - basepage - INFO - 点击成功
+2019-11-15 15:54:42,225 - basepage - INFO - 点击成功
+2019-11-15 15:54:42,379 - basepage - INFO - 点击成功
+2019-11-15 15:54:43,461 - basepage - INFO - QQ游戏（推）点击成功
+2019-11-15 15:54:43,611 - basepage - INFO - 点击成功
+2019-11-15 15:54:44,691 - basepage - INFO - 下载点击成功
+2019-11-15 15:54:44,857 - basepage - INFO - 点击成功
+2019-11-15 15:54:45,948 - basepage - INFO - 软件介绍点击成功
+2019-11-15 15:54:46,094 - basepage - INFO - 点击成功
+2019-11-15 15:54:47,184 - basepage - INFO - 腾讯推出的一款在线休闲游戏平台。可以使用QQ直接登陆QQ游戏，不用单独申请游戏帐号，与QQ好友一边聊天一边玩。集60款热门休闲游戏，包括多款真人视频棋牌游戏，特别开设照片秀专区房间，支持腾讯视频认证。点击成功
+2019-11-15 15:54:47,345 - basepage - INFO - 点击成功
+2019-11-15 15:54:48,438 - basepage - INFO - 立即下载点击成功
+2019-11-15 15:54:48,598 - basepage - INFO - 点击成功

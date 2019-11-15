@@ -80,8 +80,8 @@ import pyautogui
 # a = pyautogui.pixelMatchesColor(517, 43, (165, 186, 186))
 # print(a)
 # 获取button.png的像素
-# c = pyautogui.locateOnScreen('button.png')
-# print(c)
+c = pyautogui.locateOnScreen('button.png')
+print(c)
 # # 通过像素还原中心点的坐标
 # x, y = pyautogui.center((482, 24, 71, 31)) # 获得中心点
 # pyautogui.click(x, y)
