@@ -48,12 +48,12 @@ import pyautogui
 
 
 # 实时获得鼠标位置
-# try:
-#     while True:
-#         x, y = pyautogui.position()
-#         print(x, y)
-# except KeyboardInterrupt:
-#     print('\nExit.')
+try:
+    while True:
+        x, y = pyautogui.position()
+        print(x, y)
+except KeyboardInterrupt:
+    print('\nExit.')
 
 # cur_x = 519
 # cur_y = 41

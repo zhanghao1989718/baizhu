@@ -1,7 +1,7 @@
 #coding:utf-8
 import requests,json
 
-def get_keywordId():
+def get_keywordId(showid):
     url="http://zone.bz.cn/sem/keyword/index"
     headers={"Content-Type":"application/x-www-form-urlencoded",
              "Connection":"keep-alive",
@@ -13,7 +13,7 @@ def get_keywordId():
     request_param={
         "urrPage":"1",
         "pageSize":"20",
-        "showId":"18"
+        "showId":showid
     }
     # response=requests.post(url,data=json.dumps(request_param), headers=headers)
     response=requests.post(url, data = request_param, headers = headers)
@@ -27,7 +27,7 @@ def get_keywordId():
     return json.loads(get_text)["content"]["pageContent"][1]["keywordId"]
 
 
-def get_url():
+def get_url(showid):
     url = "http://zone.bz.cn/sem/keyword/show"
     headers = {"Content-Type": "application/x-www-form-urlencoded",
                "Connection": "keep-alive",
@@ -37,7 +37,7 @@ def get_url():
                }
 
     request_param = {
-        "keywordId": get_keywordId()
+        "keywordId": get_keywordId(showid)
 
     }
     response = requests.post(url, data=request_param, headers=headers)
@@ -47,4 +47,4 @@ def get_url():
     return json.loads(get_text)["data"]["keyword"]["destinationUrl"]
 
 if __name__ == "__main__":
-    get_url()
+    get_url(8)

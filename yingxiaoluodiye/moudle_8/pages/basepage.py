@@ -29,10 +29,8 @@ class BasePage(object):
             "pageSize": "20",
             "showId": self.showid
         }
-        # response=requests.post(url,data=json.dumps(request_param), headers=headers)
         response = requests.post(url, data=request_param, headers=headers)
         get_text = response.text
-        # json.loads把json格式转换为python识别的格式
         return json.loads(get_text)["content"]["pageContent"][1]["keywordId"]
 
     def get_url(self):
