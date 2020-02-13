@@ -10,6 +10,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 
+
 class GetReturnNum(object):
 
     def __init__(self, driver):
@@ -41,8 +42,8 @@ class GetReturnNum(object):
     def write_data(self, write_list, sql):
         # 创建一个person表
         db = pymysql.Connect(
-            host='baizhudata.mysql.rds.aliyuncs.com',port=3900,
-            user='intelsys',passwd='Baizhu7958',database='intelsys')
+            host='testbaizhu.mysql.rds.aliyuncs.com', port=3307,
+            user='root', passwd='Baizhu7958', database='intelsys_test')
         # 创建一个游标
         cursor = db.cursor()
         # 创建表
@@ -91,7 +92,8 @@ class GetReturnNum(object):
         # 验证码循环验证
         while True:
             try:
-                self.driver.find_element_by_id("validate_code").send_keys(self.get_verification_code_shitu(932, 387, 1121, 466))
+                self.driver.find_element_by_id("validate_code").send_keys(
+                    self.get_verification_code_shitu(932, 387, 1121, 466))
                 time.sleep(2)
                 self.driver.find_element_by_xpath('//*[@id="formLogin"]/a/div').click()
                 time.sleep(2)
@@ -104,7 +106,7 @@ class GetReturnNum(object):
             except:
                 print("页面跳转错误")
                 break
-                
+
         # 获取页面信息
         wait = WebDriverWait(self.driver, 10)
         wait.until(EC.presence_of_element_located((By.ID, "cont_statement")))
@@ -125,11 +127,12 @@ class GetReturnNum(object):
         list_all = []
         for x in range(result_num // 6):
             list_single = []
-            for i in [ 0 + 6 * x, 1 + 6 * x, 2 + 6 * x, 3 + 6 * x, 4 + 6 * x, 5 + 6 * x ]:
+            for i in [0 + 6 * x, 1 + 6 * x, 2 + 6 * x, 3 + 6 * x, 4 + 6 * x, 5 + 6 * x]:
                 list_single.append(result[i])
                 i += 1
             tuple_single = tuple(list_single)
             list_all.append(tuple_single)
+
         sql = "replace into test_get_data (date,sid,soft_name,num,return_point,price) values (%s, %s, %s, %s, %s, %s)"
         # 写入数据
         self.write_data(list_all, sql)
@@ -229,13 +232,14 @@ class GetReturnNum(object):
     def main(self):
         self.make_dir()
         self.driver.maximize_window()
-        self.driver.implicitly_wait(10)
-        self.get_sjmnds()
-        print("手机模拟大师数据拉取成功")
+        self.driver.implicitly_wait(5)
+        # self.get_sjmnds()
+        # print("手机模拟大师数据拉取成功")
         time.sleep(2)
         self.get_iqy()
         print("爱奇艺-阿拉丁数据拉取成功")
         self.driver.quit()
+
 
 if __name__ == "__main__":
     grn = GetReturnNum(webdriver.Chrome())
