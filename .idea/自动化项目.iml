@@ -5,6 +5,7 @@
     <orderEntry type="jdk" jdkName="Python 3.6 (mygit)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="pyautogui_demo" />
+    <orderEntry type="module" module-name="getreturndata" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

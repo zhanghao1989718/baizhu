@@ -1,14 +1,14 @@
 # coding:utf-8
-import time, os, pymysql, datetime
+import time, os, pymysql, datetime, base64, requests, json
 from io import BytesIO
 from PIL import Image
-from getreturnnum import vci
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
+from sys import version_info
 
 class GetReturnNum(object):
 
@@ -26,6 +26,21 @@ class GetReturnNum(object):
         except:
             pass
 
+    def base64_api(self, uname, pwd, img):
+        img = img.convert('RGB')
+        buffered = BytesIO()
+        img.save(buffered, format="JPEG")
+        if version_info.major >= 3:
+            b64 = str(base64.b64encode(buffered.getvalue()), encoding='utf-8')
+        else:
+            b64 = str(base64.b64encode(buffered.getvalue()))
+        data = {"username": uname, "password": pwd, "image": b64}
+        result = json.loads(requests.post("http://api.ttshitu.com/base64", json=data).text)
+        if result['success']:
+            return result["data"]["result"]
+        else:
+            return result["message"]
+
     def get_verification_code_shitu(self, left, top, right, bottom):
         screenshot = self.driver.get_screenshot_as_png()
         screenshot = Image.open(BytesIO(screenshot))
@@ -34,7 +49,7 @@ class GetReturnNum(object):
         img_path = self.get_desktop() + "\\" + "screen" + "\\" + rq + ".png"
         captcha.save(img_path)
         img = Image.open(img_path)
-        result = vci.base64_api(uname='zhanghao1989718', pwd='1989718', img=img)
+        result = self.base64_api(uname='zhanghao1989718', pwd='1989718', img=img)
         print(result)
         return result
 
