@@ -1,4 +1,4 @@
-# coding=utf-8
+
 from jiegengwang.common import HTMLTestRunner
 import os
 import sys
